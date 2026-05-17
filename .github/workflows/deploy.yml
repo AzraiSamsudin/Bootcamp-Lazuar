@@ -21,7 +21,7 @@ concurrency:
 env:
   REGISTRY: ghcr.io
   # Resolves to: USERNAME/bootcamp (your personal namespace)
-  IMAGE_NAME: ${{ github.repository }}
+  IMAGE_NAME: azraisamsudin/bootcamp-lazuar
 
 jobs:
   # ------------------------------------------------------------------
